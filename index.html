@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stressless</title>
+    <style>  
+        body {
+            font-size: 800%;
+            color: white;
+            background-image: url(geogebra-export.png);
+            background-size: auto 100vh;
+            background-position: 50% 0%;
+            padding: 0;
+            margin: 0;
+        }
+        
+        #content {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%); 
+            text-align: center;
+            line-height: 2em;
+        }
+        
+        p {
+            font-family: monospace;
+            padding: 1.5em;
+            color: white;
+            font-size: 1.4em;
+        }
+
+        a {
+            color: white;
+            font-size: 1.2em;
+            padding: 4px;
+        }
+        #countdown {
+            padding: 3px;
+        }
+    </style>
+    <!-- <script src="countdown.min.js"></script> -->
+</head>
+<body>
+    <div id="content">
+        <div id="main">
+            <code style="color: rgba(0,255,255,0.6); margin-right: -7em;">Stress Less</code>
+            <code style="color: rgba(255,0,0,0.6);">Stress Less</code>
+            <!-- <br/>
+            <span id="countdown"></span> -->
+        </div>
+    </div>
+    
+    <!-- <script>
+    countdown(
+        new Date('2018-09-08'),
+        function(ts) {
+          document.getElementById('countdown').innerHTML = ts.toHTML("strong");
+        },
+        countdown.DAYS|countdown.HOURS|countdown.MINUTES|countdown.SECONDS);
+    </script> -->
+</body>
+</html>
